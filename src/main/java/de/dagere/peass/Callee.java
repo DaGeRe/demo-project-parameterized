@@ -11,7 +11,7 @@ public class Callee {
          if (value == 0) {
             Thread.sleep(1);
          } else {
-            Thread.sleep(2);
+            Thread.sleep(20);
          }
       } catch (final InterruptedException e) {
          e.printStackTrace();
